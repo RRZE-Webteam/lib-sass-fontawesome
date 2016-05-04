@@ -49,16 +49,14 @@ If you are using [Netbeans IDE](https://netbeans.org) we advise you for the foll
 Projekt Properties -> CSS Preprocessors:
 
 - Activate "Compile Sass Files on Save"
-- "Watch":   I
--- Input /sass
--- Output /css
+- "Watch":   Input /sass  - Output /css
 - "Compiler Options"
 
 ```sh
 --style compact --compass --sourcemap=none
 ```
 
-this will only compile css/font-awesome.css .
+Notice: This will only compile css/font-awesome.css .
 
 For getting css/font-awesome.min.css you could change the compiler options to compress.
 Otherwise its faster to use the Netbeans Plugin [JS CSS Minify Compress](http://plugins.netbeans.org/plugin/49666/js-css-minify-compress)
