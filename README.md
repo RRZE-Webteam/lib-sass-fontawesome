@@ -3,7 +3,7 @@
 This library is a Sass-powered version of [FontAwesome](http://fortawesome.github.io/Font-Awesome/) 
 which is configured for several themes of the [RRZE-Webteam](https://github.com/RRZE-Webteam).
 
-*  Font Awesome 7 by @davegandy - http://fontawesome.io - @fontawesome
+*  Font Awesome 4.7 by @davegandy - http://fontawesome.io - @fontawesome
 *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  
 ## Installation
