@@ -3,7 +3,7 @@
 This library is a Sass-powered version of [FontAwesome](http://fortawesome.github.io/Font-Awesome/) 
 which is configured for several themes of the [RRZE-Webteam](https://github.com/RRZE-Webteam).
 
-*  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome
+*  Font Awesome 7 by @davegandy - http://fontawesome.io - @fontawesome
 *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  
 ## Installation
@@ -39,6 +39,10 @@ sass --style compressed --compass --sourcemap=none sass/font-awesome.scss css/fo
 3. Edit sass/_variables and change this line to match the our font folder:
  $fa-font-path:        "../fonts/fontawesome" !default;
 4. Due to problems in compiling with several SASS compilers, copy all icon-settings from css/font-awesome.css towards sass/_icons.scss
+   (below line 180, after commend:
+      /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+         readers do not read off random characters that represent icons */ 
+    )
    If you compile sass later and your icons get a content: "[]" you did something wrong :)
 
 
