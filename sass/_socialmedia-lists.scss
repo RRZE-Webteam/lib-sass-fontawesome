@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15.02.2017, 10:45:46
+    Author     : unrz59
+*/
+
+.my-socialmedia {
+    ul {
+	@extend .fa-ul;
+	&.inline li {
+	    display: inline;
+	}
+	&.hidecontent li {
+	    a {
+		overflow: hidden;
+		display: inline-block;
+		@extend .fa-fw;
+		height: (18em / 14);
+	    }
+	}
+	&.inverse li {
+	    a::before {
+		@extend .fa-inverse;
+	    }
+	}
+	li {
+	    a {
+		@extend .fa-star;
+		&::before {
+		    @extend .fa;
+		    @extend .fa-fw;
+		}
+
+
+		&[href*="delicious.com"] {
+		    @extend .fa-delicious;
+		}
+		&[href*="facebook.com"] {
+		    @extend .fa-facebook;
+		}
+		&[href*="feed"] {
+		    @extend .fa-rss;
+		}
+		&[href*="flattr.com"] {
+		    @extend .fa-refresh;
+		}
+		&[href*="flickr.com"] {
+		    @extend .fa-flickr;
+		}
+		&[href*="google.com"] {
+		    @extend .fa-google;
+		}
+		&[href*="plus.google.com"] {
+		    @extend .fa-google-plus;
+		}
+		&[href*="github.com"] {
+		    @extend .fa-github;
+		}
+		&[href*="instagram.com"] {
+		    @extend .fa-instagram;
+		}
+		&[href*="linkedin.com"] {
+		    @extend .fa-linkedin;
+		}
+		&[href*="mailto"] {
+		    @extend .fa-envelope-o;
+		}
+		&[href*="pinterest.com"] {
+		    @extend .fa-pinterest;
+		}
+		&[href*="slack.com"] {
+		    @extend .fa-slack;
+		}
+		&[href*="reddit.com"] {
+		    @extend .fa-reddit;
+		}
+		&[href*="slideshare.com"] {
+		    @extend .fa-slideshare;
+		}
+		&[href*="snapchat.com"] {
+		    @extend .fa-snapchat;
+		}  
+		&[href*="skype.com"], 
+		&[href*="skype:"] {
+		    @extend .fa-skype;
+		}
+		&[href*="spotify.com"] {
+		    @extend .fa-spotify;
+		}
+		&[href*="stumbleupon.com"] {
+		    @extend .fa-stumbleupon;
+		}
+		&[href*="tumblr.com"] {
+		    @extend .fa-tumblr;
+		}
+		&[href*="twitter.com"] {
+		    @extend .fa-twitter;
+		}
+		 &[href*="vimeo.com"] {
+		    @extend .fa-vimeo;
+		}
+		&[href*="whatsapp.com"] {
+		    @extend .fa-whatsapp;
+		}
+		&[href*="wordpress.org"], 
+		&[href*="wordpress.com"] {
+		    @extend .fa-wordpress;
+		}
+
+		 &[href*="xing.com"] {
+		    @extend .fa-xing;
+		}
+		&[href*="youtube.com"] {
+		    @extend .fa-youtube;
+		}
+
+
+
+	    }
+
+	    
+	}
+    }
+    
+}
