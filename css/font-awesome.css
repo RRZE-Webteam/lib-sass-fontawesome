@@ -17,7 +17,7 @@
 
 .fa-5x { font-size: 5em; }
 
-.fa-fw, .my-socialmedia ul.hidecontent li a, .my-socialmedia ul li a::before { width: 1.28571em; text-align: center; }
+.fa-fw { width: 1.28571em; text-align: center; }
 
 .fa-ul, .my-socialmedia ul { padding-left: 0; margin-left: 2.14286em; list-style-type: none; }
 .fa-ul > li, .my-socialmedia ul > li { position: relative; }
@@ -70,7 +70,7 @@
 
 .fa-stack-2x { font-size: 2em; }
 
-.fa-inverse, .my-socialmedia ul.inverse li a::before { color: #fff; }
+.fa-inverse { color: #fff; }
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen readers do not read off random characters that represent icons */
 .fa-glass:before { content: "\f000"; }
@@ -1434,5 +1434,7 @@ and open the template in the editor.
 */
 /*  Created on : 15.02.2017, 10:45:46 Author     : unrz59
 */
-.my-socialmedia ul.inline li { display: inline; }
-.my-socialmedia ul.hidecontent li a { overflow: hidden; display: inline-block; height: 1.28571em; }
+.my-socialmedia ul.inline li { display: inline-block; border: 1px solid #fff; border-radius: 50%; }
+.my-socialmedia ul.inline li :hover { background: #000; color: white; border: 1px solid #000; border-radius: 50%; }
+.my-socialmedia ul.hidecontent li a { overflow: hidden; display: inline-block; width: 1.4em; height: 1.4em; text-align: center; vertical-align: middle; }
+.my-socialmedia ul li a::before { width: 1.4em; height: 1.4em; text-align: center; vertical-align: middle; }
