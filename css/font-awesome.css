@@ -79,7 +79,7 @@
 
 .fa-search:before { content: "\f002"; }
 
-.fa-envelope-o:before, .my-socialmedia ul li a[href*="mailto"]:before { content: "\f003"; }
+.fa-envelope-o:before, .my-socialmedia ul li a[href^="mailto"]:before { content: "\f003"; }
 
 .fa-heart:before { content: "\f004"; }
 

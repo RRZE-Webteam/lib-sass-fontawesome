@@ -76,7 +76,7 @@ and open the template in the editor.
 		&[href*="linkedin.com"] {
 		    @extend .fa-linkedin;
 		}
-		&[href*="mailto"] {
+		&[href^="mailto"] {
 		    @extend .fa-envelope-o;
 		}
 		&[href*="pinterest.com"] {
